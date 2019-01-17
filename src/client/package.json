@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "npm run start:cloud",
-    "start-js": "react-scripts-ts start",
+    "start-js": "react-app-rewired start",
     "start:local": "cross-env REACT_APP_ENV=local npm run start-js",
     "start:dev": "cross-env REACT_APP_ENV=dev npm run start-js",
     "start:cloud": "cross-env REACT_APP_ENV=demo npm run start-js",
@@ -128,6 +128,7 @@
     "@types/styled-components": "^4.1.5",
     "@types/ua-parser-js": "^0.7.32",
     "awesome-typescript-loader": "^5.2.0",
+    "babel-plugin-styled-components": "^1.10.0",
     "cross-env": "^5.1.4",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
@@ -145,7 +146,11 @@
     "redux-devtools-extension": "^2.13.2",
     "rxjs-tslint-rules": "^4.1.1",
     "source-map-explorer": "^1.5.0",
-    "typescript": "3.1.1",
+    "react-app-rewired": "^2.0.2",
+    "react-app-rewire-styled-components": "^3.0.2",
+    "typescript": "^3.1.1",
+    "typescript-plugin-styled-components": "^1.0.0",
+    "typescript-styled-plugin": "^0.13.0",
     "unzip": "^0.1.11"
   }
 }

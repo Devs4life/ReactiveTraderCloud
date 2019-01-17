@@ -3,13 +3,20 @@
     "outDir": "build/dist",
     "module": "esnext",
     "target": "es5",
-    "lib": ["es2015", "es2017", "dom"],
+    "lib": [
+      "es2015",
+      "es2017",
+      "dom"
+    ],
     "sourceMap": true,
     "allowJs": true,
     "strict": true,
     "jsx": "react",
     "moduleResolution": "node",
-    "rootDirs": ["src", "stories"],
+    "rootDirs": [
+      "src",
+      "stories"
+    ],
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": false,
     "noImplicitThis": false,
@@ -20,7 +27,7 @@
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "baseUrl": "src",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
   },
   "exclude": [
     "node_modules",
@@ -31,5 +38,5 @@
     "jest",
     "**/*.spec.ts",
     "storybook-static"
-  ]
+  ],
 }
